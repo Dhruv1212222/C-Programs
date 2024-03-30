@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+
+   main ()
+{
+      int a=10,b=20,c=30,d=100,h=12,g=6;
+
+   clrscr();
+
+	printf("add\t:%d\n",a+d);
+	printf("sub\t:%d\n",c-a-b);
+	printf("mux\t:%d\n",d*a*b);
+	printf("div\t:%d\n",c/a);
+	printf("modulo\t:%d",a%b);
+
+    printf("%d + %d = %d\n",h,g,h+g);
+	printf("%d - %d = %d\n",h,g,h-g);
+	printf("%d * %d = %d\n",h,g,h*g);
+	printf("%d / %d = %d\n",h,g,h/g);
+	printf("%d %% %d = %d",h,g,h%g);
+   getch();
+
+}
+
+
+
+
