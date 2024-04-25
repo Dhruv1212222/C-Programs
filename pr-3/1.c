@@ -11,6 +11,6 @@ main()
        printf("%c ",ch);
        ch+=4;
    }
-   while(ch>='a' && ch<='z');
+   while(ch<='z');
     
 }
